@@ -15,16 +15,20 @@ When you log a standard JavaScript Date object to the console, it will display a
 In JavaScript, there are three keywords to declare variables: var, let, and const.
 
 1. var:
-The var keyword is used to declare a variable in JavaScript, and it has function scope. This means that the variable declared with var is accessible within the function where it is defined, and also within inner functions within the same function. However, it is not accessible outside the function.
 
-### Example - 
+   The var keyword is used to declare a variable in JavaScript, and it has function scope. This means that the variable declared with var is accessible within the function where it is defined, and also within inner functions within the same function. However, it is not accessible outside the function.
+   II. Var follow Hoisting
+---
+### Example 1- 
     function example() {
         var x = 10;
         console.log(x);  // Output: 10
     }
     console.log(x);  // Uncaught ReferenceError: x is not defined
+---
+ 
 
-2. let:
+1. let:
 The let keyword is used to declare a variable in JavaScript, and it has block scope. This means that the variable declared with let is accessible only within the block in which it is defined, and not outside of the block.
 
 ### Example - 
