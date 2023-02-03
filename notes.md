@@ -27,6 +27,7 @@ The var keyword is used to declare a variable in JavaScript, and it has function
 2. let:
 The let keyword is used to declare a variable in JavaScript, and it has block scope. This means that the variable declared with let is accessible only within the block in which it is defined, and not outside of the block.
 
+### Example - 
     if (true) {
         let x = 10;
         console.log(x);  // Output: 10
@@ -36,6 +37,7 @@ The let keyword is used to declare a variable in JavaScript, and it has block sc
 3. const:
 The const keyword is used to declare a constant in JavaScript, and it also has block scope. This means that the variable declared with const is accessible only within the block in which it is defined, and not outside of the block. The main difference between let and const is that the value of a variable declared with const cannot be changed, it is a constant.
 
+### Example - 
     const x = 10;
-    console.log(x);  // Output: 10
+        console.log(x);  // Output: 10
         x = 20;  // Uncaught TypeError: Assignment to constant variable.
